@@ -1,0 +1,1559 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Indie+Flower&family=Qwitcher+Grypen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Indie+Flower&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Qwitcher+Grypen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+/* nav */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #292727;
+  letter-spacing: 1px;
+}
+/* end */
+
+.containerr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerr > .image video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 1;
+  left: 0;
+}
+.overlay1 {
+  position: relative;
+  margin-top: 9rem;
+  padding: 2%;
+}
+.text {
+  font-size: 80px;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+.sapn-text {
+  font-size: 15px;
+  text-transform: uppercase;
+
+  font-weight: 700;
+  color: white;
+  letter-spacing: 3px;
+}
+
+button {
+  border: 1px solid rgb(30, 31, 32);
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  color: rgb(30, 31, 32);
+  background-color: transparent;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(0, 110, 255);
+  transition: 0.5s;
+  color: rgb(255, 250, 250);
+  border: 1px solid rgb(0, 110, 255);
+}
+.btn {
+  background-color: white;
+  color: rgb(30, 31, 32);
+  border: 1px solid rgb(248, 251, 253);
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  font-weight: bold;
+  color: rgb(30, 31, 32);
+  cursor: pointer;
+}
+.btn:hover {
+  border: 1px solid rgb(30, 31, 32);
+  color: #111111;
+}
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+.sche {
+  margin-top: 20%;
+}
+.service {
+  color: black;
+  padding-bottom: 10px;
+  margin-left: 2%;
+}
+.head {
+  font-size: 30px;
+  color: black;
+}
+.cards {
+  margin: 2%;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+.cardd {
+  flex-direction: row;
+  align-items: center;
+  letter-spacing: 3px;
+  justify-content: space-between;
+  border: 1px solid beige;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 4px;
+  width: 40rem;
+}
+.coverimg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.coverimg img {
+  height: 70px;
+  width: 140px;
+  border: 1px solid rgba(245, 245, 220, 0);
+  border-radius: 7px;
+}
+.tite {
+  color: black;
+  font-size: 17px;
+}
+.fad {
+  color: rgba(0, 0, 0, 0.616);
+  font-size: 13px;
+}
+.fsmall {
+  font-size: 13px;
+}
+.coverimgbig img {
+  height: 410px;
+  object-fit: cover;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}
+.contentt {
+  background-color: rgb(23, 23, 150);
+  color: white;
+  padding: 2%;
+  margin: 0;
+  padding-left: 5%;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 10px;
+}
+.right img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.featured {
+  background-image: url(https://aqua.org/images/topographic-dark-translucent.svg);
+  background-size: cover;
+  background-position: center;
+  padding: 2%;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.feat-left > img {
+  object-fit: cover;
+  width: 432px;
+}
+.feat-mid > img {
+  object-fit: cover;
+  height: 189px;
+  width: 330px;
+}
+.feat-mid {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.feat-content {
+  padding: 3%;
+}
+
+.para {
+  font-size: 34px;
+  font-weight: 700;
+  color: #202020;
+  padding-top: 6%;
+}
+.fe-pa {
+  text-transform: capitalize;
+  font-weight: 400;
+  padding-top: 6%;
+}
+.featured {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+.container-Stories {
+  margin-top: 5%;
+}
+.cardss {
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+i {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+/* bottom-cards home */
+:root {
+  --purple: hsl(240, 80%, 89%);
+  --pink: hsl(0, 59%, 94%);
+  --light-bg: hsl(204, 37%, 92%);
+  --light-gray-bg: hsl(0, 0%, 94%);
+  --white: hsl(0, 0%, 100%);
+  --dark: hsl(0, 0%, 7%);
+  --text-gray: hsl(0, 0%, 30%);
+}
+
+.box > h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.box > p {
+  font-size: 1em;
+  line-height: 1.7;
+  font-weight: 300;
+  color: var(--text-gray);
+}
+
+.description {
+  white-space: wrap;
+}
+
+.box > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrap {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  gap: 24px;
+  padding: 24px;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  position: relative;
+  padding: 24px;
+  background: #fff;
+}
+
+.box-top {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+.box-image {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+
+.title-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-title {
+  border-left: 3px solid var(--purple);
+  padding-left: 12px;
+}
+
+.user-follow-info {
+  color: hsl(0, 0%, 60%);
+}
+
+.fill-one {
+  background: var(--light-bg);
+}
+
+.fill-two {
+  background: var(--pink);
+}
+
+/* RESPONSIVE QUERIES */
+
+@media (min-width: 320px) {
+  .title-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .user-follow-info {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 460px) {
+  .title-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .user-follow-info {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 640px) {
+  .box {
+    flex-basis: calc(50% - 12px);
+  }
+  .title-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .user-follow-info {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 840px) {
+  .title-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .user-follow-info {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .box {
+    flex-basis: calc(33.3% - 16px);
+  }
+  .title-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .user-follow-info {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .box {
+    flex-basis: calc(25% - 18px);
+  }
+}
+
+/* end */
+
+/* Explore home */
+.Explore-home {
+  background-image: url(https://aqua.org/assets/animals/_generic_1920px_2x/101845/2020-01-09_animal_foxface-rabbitfish-PCR_001.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 2%;
+  height: 60vh;
+}
+.ex-vis {
+  padding-top: 15%;
+}
+.Exoplore-cards {
+  margin: 5%;
+}
+.Exo-Expert {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Exo-Expert2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.svg-side {
+  background-image: url(https://aqua.org/images/topographic-dark-translucent.svg);
+  background-size: cover;
+  background-color: #012a3a;
+  background-position: center;
+  width: 100%;
+  padding: 2%;
+}
+
+.Expert-img > img {
+  width: 28.5rem;
+}
+.Exo-Expert > h1 {
+  color: white;
+}
+.Exo-Expert2 > h1 {
+  color: white;
+}
+
+/* Explore-cards */
+
+.Exo-card {
+  width: 100%;
+  background: white;
+  padding: 0.4em;
+  border-radius: 6px;
+}
+.Exo-card-image > img {
+  width: 100%;
+  height: 300px;
+}
+
+.Exo-card-image {
+  background-color: rgb(236, 236, 236);
+  border-radius: 6px 6px 0 0;
+}
+
+.Exo-card-image:hover {
+  transform: scale(0.98);
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding: 10px 7px 0;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  padding: 7px;
+}
+
+.heading:hover {
+  cursor: pointer;
+}
+
+.author {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+
+/* Buy Tickets*/
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+.Buy-home {
+  background-image: url(https://aqua.org/assets/landscapes/_generic_1920px_2x/71447/2017-03-28_landscape_drone-overhead-ocean_center-center_001.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 2%;
+  height: 40vh;
+}
+.buy-vis {
+  padding-top: 3%;
+}
+.buy-body {
+  background-image: url(https://aqua.org/images/topographic-dark-translucent.svg);
+  height: 100%;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  color: rgb(2, 1, 75);
+}
+
+.countdown-container > h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 9em;
+}
+.countdo > h1 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 10vh;
+  padding-top: 5%;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 4em;
+}
+@media screen and (max-width: 600px) {
+  .countdown-text {
+    font-size: 36px;
+  }
+
+  .countdown-container {
+    width: 80%;
+    height: auto;
+  }
+}
+
+/* buy-cards */
+.buy_Cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 5%;
+}
+.buy-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  padding: 20px 1px;
+  margin: 10px 0;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 10px 15px -3px rgba(33, 150, 243, 0.4),
+    0 4px 6px -4px rgba(33, 150, 243, 0.4);
+  border-radius: 10px;
+  background-color: #6b6ecc;
+  background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
+}
+
+.buy-content {
+  padding: 20px;
+}
+
+.buy-content .buy-price {
+  color: white;
+  font-weight: 800;
+  font-size: 50px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+}
+
+.buy-content .buy-description {
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.buy-content .buy-title {
+  font-weight: 800;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.64);
+  margin-top: 10px;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.buy_Cards > button {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: none;
+  outline: none;
+  color: rgb(255 255 255);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  background-color: rgb(33 150 243);
+  border-radius: 0.5rem;
+  width: 90%;
+  text-shadow: 0px 4px 18px #2c3442;
+}
+
+/*booking form*/
+.section {
+  position: relative;
+  height: 100vh;
+}
+
+.section .section-center {
+  position: absolute;
+  padding: 5%;
+  top: 55%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.booking-form {
+  position: relative;
+  max-width: 642px;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.booking-form > .booking-bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 250px;
+  background-image: url("https://aqua.org/assets/animals/_narrow_tile_2x/70145/2017-06-17_animal_zebra-shark_center-center_001.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.booking-form > .formbody {
+  margin-left: 250px;
+  padding: 30px;
+  border: 1px solid #f9fafc;
+  border-left: 0px;
+}
+
+.booking-form .form-header {
+  margin-bottom: 30px;
+}
+
+.booking-form .form-header h2 {
+  margin: 0;
+  margin-bottom: 0px;
+  font-weight: 700;
+  color: #122244;
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+.booking-form .form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-control {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking-form .c {
+  background-color: #f7f9fa;
+  height: 40px;
+  padding: 0px 10px;
+  border-radius: 0px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #122244;
+  border: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  -webkit-box-shadow: inset 0 1px 4px rgba(181, 193, 204, 0.3);
+  box-shadow: inset 0 1px 4px rgba(181, 193, 204, 0.3);
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+  color: #dde3e8;
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+  color: #dde3e8;
+}
+
+.booking-form .form-control::placeholder {
+  color: #dde3e8;
+}
+
+.booking-form .form-control:focus {
+  -webkit-box-shadow: inset 0 1px 4px rgba(181, 193, 204, 0.3);
+  box-shadow: inset 0 1px 4px rgba(181, 193, 204, 0.3);
+}
+
+.booking-form input[type="date"].form-control:invalid {
+  color: #dde3e8;
+}
+
+.booking-form select.form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.booking-form select.form-control + .select-arrow {
+  position: absolute;
+  right: 0px;
+  bottom: 4px;
+  width: 32px;
+  line-height: 32px;
+  height: 32px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.booking-form select.form-control + .select-arrow:after {
+  content: "\279C";
+  display: block;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: #dddee9;
+  font-size: 14px;
+}
+
+.booking-form .form-label {
+  color: #343536;
+  font-weight: 700;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-transform: uppercase;
+  line-height: 24px;
+  height: 24px;
+  font-size: 14px;
+  z-index: 1;
+}
+
+.booking-form .form-btn {
+  margin-top: 10px;
+}
+
+.booking-form .submit-btn {
+  color: #fff;
+  background-color: #6499ff;
+  font-weight: 700;
+  padding: 13px 35px;
+  font-size: 16px;
+  border: none;
+  width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .booking-form > .booking-bg {
+    display: none;
+  }
+  .booking-form > .formbody {
+    margin-left: 0px;
+  }
+  .tick-form {
+    padding-top: 10%;
+  }
+  .section .section-center {
+    top: 70%;
+  }
+}
+.plus {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.plus:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+/* Visit Page Start */
+
+.visit-home {
+  background-image: url(https://aqua.org/assets/people/_generic_1920px_2x/96923/2019-05-14_people_boys-jellies_center_001.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 2%;
+  height: 60vh;
+}
+.vis {
+  padding-top: 15%;
+}
+
+.coverimgbig-visit > .sapn-text {
+  font-size: 20px;
+}
+.coverimgbig-visit > img {
+  width: 80%;
+  position: absolute;
+  padding-left: 10px;
+}
+.coverimgbig-visit {
+  margin-top: 3%;
+}
+.cardbig-text {
+  position: relative;
+  padding: 3%;
+  background-color: white;
+  padding-top: 5%;
+  top: 70px;
+  left: 638px;
+  width: 40rem;
+}
+.head-visit {
+  font-size: 40px;
+  font-weight: 700;
+  color: #012a3a;
+  padding-left: 1.7%;
+  text-transform: capitalize;
+}
+
+.p-para {
+  color: #012a3a;
+  font-size: 19px;
+  padding-left: 1.7%;
+  padding-top: 2%;
+}
+
+.row-v {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+  font-size: 21px;
+}
+.row-v > .day {
+  font-weight: 600;
+}
+.vist-btn {
+  margin: 2%;
+  padding-top: 6%;
+}
+.dir-text {
+  font-size: 20px;
+}
+.direction {
+  background-size: cover;
+  background-position: center;
+  padding: 2%;
+  color: #202020;
+  height: 100%;
+  width: 100%;
+  margin-top: 5%;
+  padding-bottom: 10%;
+}
+.dir-vis {
+  margin-top: 4%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/*accordion*/
+
+.plus-visit {
+  margin-top: 5%;
+}
+.accordion-button {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: none;
+  border-bottom: 1px solid #012a3a;
+  color: #012a3a;
+}
+
+.accordion-body {
+  color: #202020;
+  font-size: 17px;
+  padding-left: 1.7%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.plus-head {
+  font-size: 23px;
+  font-weight: 700;
+  color: #012a3a;
+}
+.plus-bold {
+  font-size: 18px;
+  font-weight: 700;
+  color: #012a3a;
+  padding-bottom: 19px;
+}
+
+/* visit-blog  cards */
+.blog {
+  margin-top: 20%;
+}
+
+header {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.vis-band {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+
+  @media (min-width: 30em) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 60em) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.vis-card {
+  background: white;
+  text-decoration: none;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  /*  sets up hover state */
+  position: relative;
+  top: 0;
+  transition: all 0.1s ease-in;
+
+  &:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  article {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .blog > h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+  }
+
+  .vis-card > p {
+    flex: 1;
+    line-height: 1.4;
+  }
+
+  .span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 2em 0 0 0;
+  }
+
+  .thumb {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.item-1 {
+  @media (min-width: 60em) {
+    grid-column: 1 / span 2;
+
+    .vis-band > h1 {
+      font-size: 24px;
+    }
+  }
+}
+
+/* end */
+
+/* fotter */
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+/* Animal PagE */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.ani-home {
+  background-image: url(https://aqua.org/assets/landscapes/_generic_1920px_2x/71447/2017-03-28_landscape_drone-overhead-ocean_center-center_001.webp);
+  background-size: cover;
+  height: 60vh;
+  letter-spacing: 2px;
+  padding: 5%;
+}
+.ani-h {
+  font-weight: 900;
+  color: white;
+  font-size: 64px;
+}
+.ani-p {
+  color: white;
+  font-size: 24px;
+  letter-spacing: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 800;
+}
+
+/* Animal-card */
+
+.ani-cards {
+  background-image: url(https://aqua.org/images/topographic-dark-translucent.svg);
+  background-size: cover;
+  background-position: center;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ani-line {
+  display: flex;
+  gap: 20px;
+  padding: 2%;
+}
+
+.ani-card {
+  width: 330px;
+  height: 450px;
+  position: relative;
+  color: #f5f5f5;
+  border-radius: 4px;
+  overflow: hidden;
+  line-height: 150%;
+  box-shadow: 0px 10px 20px rgba(80, 80, 80, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+  background-color: #05164d;
+}
+
+.card-info {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+/* Image */
+
+.card-img > img {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.card-img {
+  position: absolute;
+  transition: transform 0.3s ease-in-out;
+  z-index: 2;
+}
+
+/* Buttons */
+.social-media {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1rem;
+  transform: translateY(-8em);
+  z-index: 3;
+}
+
+.social-media li {
+  background: #f5f5f5;
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+/* Icons */
+.social-media li svg {
+  --size: 24px;
+  width: var(--size);
+  height: var(--size);
+  fill: #252525;
+}
+
+/* Texts */
+
+.title {
+  font-size: 1.5em;
+  font-weight: 400;
+  font-family: "Cormorant Garamond, serif";
+}
+
+.subtitle {
+  font-size: 0.7em;
+}
+
+/* Hovers */
+.ani-card:hover {
+  box-shadow: 0px 15px 30px rgba(80, 80, 80, 0.3);
+}
+
+.ani-card:hover .card-img {
+  transform: translateY(-6em);
+}
+
+.ani-card:hover .social-media li {
+  transform: translateY(-10%);
+  opacity: 1;
+}
+.ani-card:hover .social-media li:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+/* end */
+
+/* number nevigators */
+.ani-nev-num {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* phone */
+
+@media (max-width: 425px) {
+  .navbar-brand {
+    margin-right: auto;
+  }
+  .overlay1 {
+    background-color: rgb(23, 23, 150);
+    padding: 5%;
+    margin-top: 56%;
+  }
+  .sapn-text {
+    font-size: 9px;
+    letter-spacing: 1px;
+  }
+  .text {
+    font-size: 40px;
+  }
+  button {
+    font-size: 10px;
+    padding: 10px 20px;
+    background-color: white;
+  }
+  .sche {
+    margin-top: 5%;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .cardbig {
+    display: flex;
+    flex-direction: column;
+  }
+  .tite {
+    font-size: 13px;
+  }
+  .fad {
+    font-size: 10px;
+  }
+  .fsmall {
+    font-size: 10px;
+  }
+  .coverimg {
+    gap: 9px;
+  }
+  .cardd {
+    width: auto;
+  }
+  .coverimg img {
+    display: none;
+  }
+  .cardd {
+    padding: 3%;
+  }
+  .featured {
+    display: block;
+  }
+
+  .para {
+    font-size: 26px;
+  }
+  .sapn-text {
+    font-size: 14px;
+  }
+
+  .feat-left > img {
+    display: none;
+  }
+  .feat-mid > img {
+    display: none;
+  }
+  .card-deck {
+    display: block;
+  }
+  .card {
+    margin: 0;
+  }
+  .d-inline-block {
+    width: auto;
+  }
+  .lists {
+    display: block;
+  }
+  .fot-hid {
+    display: none;
+  }
+  .container1 {
+    margin-top: 20%;
+  }
+
+  /* visit-page */
+  .vis {
+    padding-top: 30%;
+  }
+  .visit-home {
+    height: 50vh;
+  }
+  .coverimgbig-visit > img {
+    display: block;
+    position: unset;
+    width: 95%;
+  }
+  .cardbig-text {
+    position: inherit;
+    width: auto;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .cardbig-visit {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .head-visit {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 21px;
+  }
+  .row-v {
+    font-size: 14px;
+  }
+  .p-para {
+    font-size: 16px;
+  }
+  .coverimgbig-visit > .sapn-text {
+    display: none;
+  }
+  .dir-vis {
+    margin: 0;
+  }
+  /* Animal page */
+  .ani-p {
+    font-size: 17px;
+  }
+  .ani-cards {
+    display: block;
+  }
+
+  .ani-line {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  /* Explore page */
+  .Exo-Expert,
+  .Exo-Expert2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .Expert-img > img {
+    /* width: 25.1em;  */
+    width: 100%;
+    background-position: center;
+  }
+  .buy_Cards {
+    display: block;
+  }
+  .buy_Cards > .buy-card {
+    width: 100%;
+  }
+  .countdown-container > h1 {
+    font-size: 5em;
+    margin-left: 27%;
+  }
+
+  /* .svg-side{
+  width: 100%;
+} */
+  .Purchase > .ani-home > .ani-h {
+    font-size: 46px;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) and (min-width: 426px) {
+  .navbar-brand {
+    margin-right: auto;
+  }
+  .d-inline-block {
+    width: auto;
+  }
+  .list {
+    margin-left: auto;
+  }
+  .carousel-item img {
+    height: 200px;
+  }
+  .carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 200px;
+  }
+  .containerr > .image {
+    height: 50vh;
+    width: 100rem;
+  }
+  .image > span {
+    font-size: auto;
+  }
+
+  .overlay {
+    background-color: rgb(23, 23, 150);
+    padding: 5%;
+    margin-top: 50%;
+  }
+  .sapn-text {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .text {
+    font-size: 40px;
+  }
+  button {
+    font-size: 10px;
+    padding: 10px 20px;
+    background-color: white;
+  }
+  .sche {
+    margin-top: 37%;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .cardbig {
+    display: flex;
+    flex-direction: row;
+  }
+  .contentt {
+    height: 100%;
+    padding: 8%;
+    font-size: 9px;
+  }
+  .cardd {
+    width: auto;
+  }
+  .feat-mid > img {
+    display: none;
+  }
+  .feat-left > img {
+    width: 302px;
+  }
+  .fot-hid {
+    display: none;
+  }
+  .container1 {
+    margin-top: 0;
+  }
+
+  .cardbig-text {
+    position: relative;
+    padding: 3%;
+    padding-top: 1%;
+    top: 26px;
+    left: 355px;
+    width: 26rem;
+  }
+  .head-visit {
+    font-size: 20px;
+  }
+
+  .p-para {
+    font-size: 13px;
+  }
+  .row-v {
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    font-size: 14px;
+  }
+  .sapn-text {
+    font-size: 11px;
+  }
+  /* Animal crds */
+  .ani-card {
+    width: 221px;
+    height: 300px;
+  }
+  .title {
+    font-size: 19px;
+  }
+  .ani-p {
+    font-size: 17px;
+  }
+}
