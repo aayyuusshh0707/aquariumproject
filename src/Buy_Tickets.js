@@ -6,7 +6,10 @@ function Buy_Tickets() {
   const [count, setCount] = useState(0);
   const [change, setChange] = useState(0);
 
+  const [isformSubmited, setisformSubmited] = useState(false);
+
   // form validation
+
   const [user, setuser] = useState("");
   const [pass, setpass] = useState("");
   const [UserErr, setuserErr] = useState(false);
@@ -35,14 +38,14 @@ function Buy_Tickets() {
     setpass(items);
   }
 
-  function loginhandel(e) {
+  function handleSubmit(e) {
     e.preventDefault();
-
     // Check if form fields meet the basic criteria
     if (user.length > 3 && pass.length === 10 && /^[0-9]+$/.test(pass)) {
+      setisformSubmited(true);
       alert("Congratulations, Your ticket booked 🎉🎫✈️");
     } else {
-      alert("Please fill out all fields correctly.");
+      alert("Please fill the form correctly");
     }
   }
 
@@ -55,7 +58,8 @@ function Buy_Tickets() {
               <div className="row">
                 <div className="booking-form">
                   <div className="booking-bg" />
-                  <div className="formbody">
+
+                  <form onSubmit={handleSubmit} className="formbody">
                     <div className="form-header">
                       <h2>Make your Visit</h2>
                     </div>
@@ -73,7 +77,7 @@ function Buy_Tickets() {
                             <input className="form-control" type="time" />
                           </div>
                         </div>
-                      </div>{" "}
+                      </div>
                     </form>
                     <div className="row">
                       <div className="col-md-6">
@@ -82,6 +86,7 @@ function Buy_Tickets() {
                           <br />
                           <span className="form-control">
                             <button
+                              type="button"
                               className="plus"
                               onClick={() => count > 0 && setCount(count - 1)}
                             >
@@ -89,6 +94,7 @@ function Buy_Tickets() {
                             </button>
                             {count}
                             <button
+                              type="button"
                               className="plus"
                               onClick={() => setCount(count + 1)}
                             >
@@ -105,13 +111,17 @@ function Buy_Tickets() {
 
                           <span className="form-control">
                             <button
+                              type="button"
                               className="plus"
-                              onClick={() => change > 0 && setCount(change - 1)}
+                              onClick={() =>
+                                change > 0 && setChange(change - 1)
+                              }
                             >
                               -
                             </button>
                             {change}
                             <button
+                              type="button"
                               className="plus"
                               onClick={() => setChange(change + 1)}
                             >
@@ -161,11 +171,11 @@ function Buy_Tickets() {
                       )}
                     </div>
                     <div className="form-btn">
-                      <button className="submit-btn" onClick={loginhandel}>
-                        Book Now
+                      <button type="submit" className="submit-btn" >
+                        {isformSubmited ? "Download Ticket" : "Book Now"}
                       </button>
                     </div>
-                  </div>
+                  </form>
                 </div>
               </div>
             </div>

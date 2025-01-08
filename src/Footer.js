@@ -2,20 +2,16 @@ import React from "react";
 function Fotter() {
   return (
     <>
-      <img
-        src="/wave.gif"
-        style={{
-          width: "100%",
-          height: "300px",
-
-        }}
-      />
-      <footer className="footer">
+    
+      <footer className="footer" style={{marginTop:"10em"}}>
+        {/* <img src='/wave.gif'  /> */}
+        <div className="ocean">
+          <div className="wave"></div>
+          <div className="wave"></div>
+          <div className="wave"></div>
+        </div>
      
-        <p style={{
-          textAlign: "center",
-          
-        }}>Visit our Aqarium Now , Don't Wait !</p>
+        <p>Visit our Aqarium Now , Don't Wait !</p>
       </footer>
     </>
   );
