@@ -177,7 +177,7 @@ button:hover {
   background-size: cover;
   background-position: center;
   padding: 2%;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   margin-bottom: 50px;
 }
@@ -774,6 +774,9 @@ i {
   border: none;
   width: 100%;
 }
+.tick-form{
+  margin-bottom: 150px;
+}
 
 @media only screen and (max-width: 480px) {
   .booking-form > .booking-bg {
@@ -788,6 +791,7 @@ i {
   .section .section-center {
     top: 70%;
   }
+
 }
 .plus {
   border: none;
@@ -1012,7 +1016,7 @@ header {
 .footer {
   position: relative;
   width: 100%;
-  background: #3586ff;
+  background: #7de2da;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
@@ -1038,7 +1042,7 @@ header {
 
 .social-icon__link {
   font-size: 2rem;
-  color: #fff;
+  color: black;
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
@@ -1049,7 +1053,7 @@ header {
 
 .menu__link {
   font-size: 1.2rem;
-  color: #fff;
+  color: black;
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
@@ -1063,66 +1067,10 @@ header {
 }
 
 .footer p {
-  color: #fff;
+  color: black;
   margin: 15px 0 10px 0;
   font-size: 1rem;
   font-weight: 300;
-}
-
-.wave {
-  position: absolute;
-  top: -100px;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  background: url("https://i.ibb.co/wQZVxxk/wave.png");
-  background-size: 1000px 100px;
-}
-
-.wave#wave1 {
-  z-index: 1000;
-  opacity: 1;
-  bottom: 0;
-  animation: animateWaves 4s linear infinite;
-}
-
-.wave#wave2 {
-  z-index: 999;
-  opacity: 0.5;
-  bottom: 10px;
-  animation: animate 4s linear infinite !important;
-}
-
-.wave#wave3 {
-  z-index: 1000;
-  opacity: 0.2;
-  bottom: 15px;
-  animation: animateWaves 3s linear infinite;
-}
-
-.wave#wave4 {
-  z-index: 999;
-  opacity: 0.7;
-  bottom: 20px;
-  animation: animate 3s linear infinite;
-}
-
-@keyframes animateWaves {
-  0% {
-    background-position-x: 1000px;
-  }
-  100% {
-    background-positon-x: 0px;
-  }
-}
-
-@keyframes animate {
-  0% {
-    background-position-x: -1000px;
-  }
-  100% {
-    background-positon-x: 0px;
-  }
 }
 
 /* Animal PagE */
@@ -1167,8 +1115,8 @@ header {
 }
 
 .ani-card {
-  width: 330px;
-  height: 450px;
+  width: 300px;
+  height: 411px;
   position: relative;
   color: #f5f5f5;
   border-radius: 4px;
@@ -1271,6 +1219,9 @@ header {
 /* phone */
 
 @media (max-width: 425px) {
+  .containerr > .image video {
+    height: 80%;
+  }
   .navbar-brand {
     margin-right: auto;
   }
@@ -1435,6 +1386,10 @@ header {
     font-size: 5em;
     margin-left: 27%;
   }
+  
+.Buy-home {
+  height: 30vh;
+}
 
   /* .svg-side{
   width: 100%;
@@ -1442,6 +1397,14 @@ header {
   .Purchase > .ani-home > .ani-h {
     font-size: 46px;
   }
+  /* countdown */
+  .countdo > h1 {
+    font-size: 1.5em;
+  }
+  .countdown-container > h1 {
+    font-size: 3em;
+  }
+  
 }
 
 /* tablet */

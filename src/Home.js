@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Home_Stories from "./Home_Stories";
+import { NavLink } from "react-router-dom";
 
 function Homeo() {
   useEffect(() => {
@@ -7,7 +8,6 @@ function Homeo() {
       window.AOS.init();
     }
   });
-
   return (
     <>
       <div className="home">
@@ -15,7 +15,6 @@ function Homeo() {
           <div className="image">
             <video src="/3.mp4" muted autoPlay loop></video>
 
-            {/* <video src="https://videos.pexels.com/video-files/5607986/5607986-sd_640_360_30fps.mp4" muted autoPlay loop></video> */}
             <div className="overlay1">
               <span className="sapn-text  ">Plan Your Aquarium Visit</span>
               <h1 className="text ">We'd Love to See You!</h1>
@@ -25,9 +24,9 @@ function Homeo() {
               </span>
               <br />
               <br />
-              <a href="/Purchase">
-                <button className="btn">Buy Tickets</button>
-              </a>
+              <NavLink to="/Purchase">
+                <button >Buy Tickets</button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -111,7 +110,7 @@ function Homeo() {
 
               <br />
               <a href="/Explore">
-                {" "}
+             
                 <button>Explore More</button>
               </a>
             </div>
@@ -130,9 +129,9 @@ function Homeo() {
               connection they all share with water.
             </p>
             <a href="/animals">
-              {" "}
               <button>Meet Our Animals </button>
             </a>
+
           </div>
 
           <div className="feat-left ">
@@ -144,6 +143,9 @@ function Homeo() {
             <img src="https://aqua.org/assets/animals/_column_cell_on_tablet_and_above_2x/68788/2019-06-04_animal_harlequin-tuskfish_center-center_001.webp" />
           </div>
         </div>
+
+
+        
         <div className="bott-cards">
           <div className="wrap">
             <div data-aos="zoom-in" className="box">
@@ -163,6 +165,9 @@ function Homeo() {
                 </p>
               </div>
             </div>
+
+
+
             <div data-aos="zoom-in" className="box">
               <div className="box-top">
                 <img
