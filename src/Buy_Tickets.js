@@ -171,9 +171,19 @@ function Buy_Tickets() {
                       )}
                     </div>
                     <div className="form-btn">
-                      <button type="submit" className="submit-btn" >
-                        {isformSubmited ? "Download Ticket" : "Book Now"}
-                      </button>
+                      {isformSubmited ? (
+                        <button
+                          type="downlode"
+                          className="submit-btn"
+                         // onClick={handledownload}
+                        >
+                          Download Ticket
+                        </button>
+                      ) : (
+                        <button type="submit" className="submit-btn">
+                          Book Now
+                        </button>
+                      )}
                     </div>
                   </form>
                 </div>
