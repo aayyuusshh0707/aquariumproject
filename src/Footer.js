@@ -10,7 +10,7 @@ function Fotter() {
           <div className="wave"></div>
         </div>
 
-        <p>Visit our Aqarium Now , Don't Wait !</p>
+        <p>Visit our Aqarium Now , Don't Wait !!</p>
       </footer>
     </>
   );
