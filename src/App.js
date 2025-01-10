@@ -16,6 +16,7 @@ function App() {
     <>
       <Suspense fallback={<Loader />}>
         <Nav />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Explore" element={<Explore />} />
