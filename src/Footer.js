@@ -3,7 +3,7 @@ function Fotter() {
   return (
     <>
       <footer className="footer" style={{ marginTop: "10em" }}>
-        {/* <img src='/wave.gif'  /> */}
+       
         <div className="ocean">
           <div className="wave"></div>
           <div className="wave"></div>

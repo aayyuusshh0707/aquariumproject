@@ -1,27 +1,31 @@
-import Nav from "./Nav";
-import Buy from "./Buy";
+import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import Visit from "./Visit";
+import Nav from "./Nav";
 import Footer from "./Footer";
-import Animals from "./Animals";
-import Explore from "./Explore";
-import Purchase from "./Purchase";
+import Loader from "./Loader";
+// Lazy loading components
+const Buy = lazy(() => import("./Buy"));
+const Home = lazy(() => import("./Home"));
+const Visit = lazy(() => import("./Visit"));
+const Animals = lazy(() => import("./Animals"));
+const Explore = lazy(() => import("./Explore"));
+const Purchase = lazy(() => import("./Purchase"));
 
 function App() {
   return (
     <>
-      <Nav />
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Explore" element={<Explore />} />
-        <Route path="/Visit" element={<Visit />} />
-        <Route path="/Buy" element={<Buy />} />
-        <Route path="/animals" element={<Animals />} />
-        <Route path="/Purchase" element={<Purchase />} />
-      </Routes>
-      <Footer />
+      <Suspense fallback={<Loader />}>
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Explore" element={<Explore />} />
+          <Route path="/Visit" element={<Visit />} />
+          <Route path="/Buy" element={<Buy />} />
+          <Route path="/animals" element={<Animals />} />
+          <Route path="/Purchase" element={<Purchase />} />
+        </Routes>
+        <Footer />
+      </Suspense>
     </>
   );
 }
