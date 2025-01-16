@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Home_Stories from "./Home_Stories";
+import Home_Stories from "./HomeStories";
 import { NavLink } from "react-router-dom";
 
 function Homeo() {
@@ -13,7 +13,7 @@ function Homeo() {
       <div className="home">
         <div className="containerr">
           <div className="image">
-            <video src="/3.mp4" muted autoPlay loop></video>
+            <video src="/video.mp4" muted autoPlay loop></video>
 
             <div className="overlay1">
               <span className="sapn-text  ">Plan Your Aquarium Visit</span>
@@ -25,7 +25,7 @@ function Homeo() {
               <br />
               <br />
               <NavLink to="/Purchase">
-                <button >Buy Tickets</button>
+                <button>Buy Tickets</button>
               </NavLink>
             </div>
           </div>
@@ -110,7 +110,6 @@ function Homeo() {
 
               <br />
               <a href="/Explore">
-             
                 <button>Explore More</button>
               </a>
             </div>
@@ -131,7 +130,6 @@ function Homeo() {
             <a href="/animals">
               <button>Meet Our Animals </button>
             </a>
-
           </div>
 
           <div className="feat-left ">
@@ -144,8 +142,6 @@ function Homeo() {
           </div>
         </div>
 
-
-        
         <div className="bott-cards">
           <div className="wrap">
             <div data-aos="zoom-in" className="box">
@@ -165,8 +161,6 @@ function Homeo() {
                 </p>
               </div>
             </div>
-
-
 
             <div data-aos="zoom-in" className="box">
               <div className="box-top">
