@@ -3,11 +3,13 @@ import Home_Stories from "./HomeStories";
 import { NavLink } from "react-router-dom";
 
 function Homeo() {
+  
   useEffect(() => {
     if (window.AOS) {
       window.AOS.init();
     }
   });
+
   return (
     <>
       <div className="home">
